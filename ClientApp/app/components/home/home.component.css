@@ -1,0 +1,34 @@
+/*img { width: 50%; margin: auto; }*/
+
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 300px; /*slider height*/
+    color: #27aae1;
+    margin: auto;
+}
+.beer,
+.beer h1{
+    color: #FFA500;
+}
+.wine,
+.wine h1{
+    color: #B7001A;
+}
+
+.liquor,
+.liquor h1{
+    color: #C15D38;
+}
+
+.carousel .item img {
+    width: 50%; /*img width*/
+    margin: auto;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
