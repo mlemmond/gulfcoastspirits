@@ -10,11 +10,31 @@ h1{
     color: #F8981D;
 }
 
+h4{
+    color: #089AD9 ;
+}
+
+.glyphicon {
+    margin-right: 10px;
+    color: #f8991d;
+}
 
 @media (max-width: 767px) {
     /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
     .body-content {
     margin-top: 60px;
     }
-
 }
+
+.well{
+    background-color: #79CAED ;
+}
+
+.list-group-item{
+   
+}
+.color-primary-0 { color: #27A9E1 }	/* Font Color for inactive*/
+.color-primary-1 { color: #79CAED } /* Inactive tab color */
+.color-primary-2 { color: #4DB8E7 }
+.color-primary-3 { color: #089AD9 } /* Active tab color*/
+.color-primary-4 { color: #04709F }
