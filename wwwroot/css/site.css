@@ -1,5 +1,5 @@
 .body-content{
-    margin-top: 60px;
+    margin-top: 65px;
 }
 
 div .body-content{
@@ -22,12 +22,13 @@ h4{
 @media (max-width: 767px) {
     /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
     .body-content {
-    margin-top: 60px;
+    margin-top: 65px;
     }
 }
 
 .well{
     background-color: #79CAED ;
+    border: 2px solid #f8991d;
 }
 
 .list-group-item{
