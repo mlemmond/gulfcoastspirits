@@ -72,18 +72,19 @@ li .glyphicon {
   background-color: #f8c684;
 }
 .navbar-default .navbar-toggle {
-  border-color: #f8c684;
+  border-color: #f8991d;
+  background-color: #f8c684;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #f8c684;
+
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #2E90BB;
+
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #2E90BB;
+  border-color: #f8991d;
 }
 .navbar-default .navbar-link {
   color: #2E90BB;
