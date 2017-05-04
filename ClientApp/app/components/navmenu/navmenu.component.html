@@ -1,6 +1,6 @@
 <nav class='navbar navbar-default navbar-fixed-top'>
     <div class="navbar-inner">
-        <div class='container'>
+        <div class='container navContainer'>
             <div class='navbar-header'>
                 <button type='button' #navButton class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-collapse'>
                     <span class='sr-only'>Toggle navigation</span>
@@ -8,19 +8,19 @@
                     <span class='icon-bar'></span>
                     <span class='icon-bar'></span>
                 </button>
-                <a class='navbar-brand' [routerLink]="['/home']"> 
-                        <img alt="Coastal Spirits" src="./assets/gulf_coast_spirits.svg"/>
-                        </a>
+                <a class='navbar-brand' [routerLink]="['/home']">
+                    <img alt="Coastal Spirits" src="./assets/gulf_coast_spirits.svg" />
+                </a>
             </div>
             <div class='navbar-collapse collapse' id="navMenu" #navMenu>
                 <ul class='nav navbar-nav' (click)="collapseNav()">
-                    <li [routerLinkActive]="['link-active']" >
+                    <li [routerLinkActive]="['link-active']">
                         <a [routerLink]="['/home']">
                             <span class='glyphicon glyphicon-home'></span> HOME
-                        </a>
+ 
                     </li>
-                    <li [routerLinkActive]="['link-active']" > 
-                        <a [routerLink]="['/counter']" >
+                    <li [routerLinkActive]="['link-active']">
+                        <a [routerLink]="['/counter']">
                             <span class='glyphicon glyphicon-education'></span> ORDER ONLINE
                         </a>
                     </li>
@@ -28,7 +28,7 @@
                         <a [routerLink]="['/contact']">
                             <span class='glyphicon glyphicon-envelope'></span> CONTACT US
                         </a>
-                    </li>                    
+                    </li>
                 </ul>
             </div>
         </div>

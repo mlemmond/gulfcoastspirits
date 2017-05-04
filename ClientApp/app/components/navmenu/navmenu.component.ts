@@ -4,7 +4,7 @@ import { Component, ViewChild, AfterViewInit, ElementRef, Renderer} from '@angul
 @Component({
     selector: 'nav-menu',
     templateUrl: './navmenu.component.html',
-    styleUrls: ['./navmenu.component.css']
+    styleUrls: ['./navmenu.component.less']
 })
 export class NavMenuComponent implements AfterViewInit {
     @ViewChild('navButton') menuButton: ElementRef;
